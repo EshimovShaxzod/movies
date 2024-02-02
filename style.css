@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(58, 103, 103);
+}
+
+
+.movie-type::before{
+    display: inline-block;
+    margin-right: 7px;
+    content: url("./img/video.svg");
+}
+
+.movie-year::before{
+    display: inline-block;
+    margin-right: 7px;
+    content: url("./img/calendar.svg");
+}
